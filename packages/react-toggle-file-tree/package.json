@@ -1,0 +1,59 @@
+{
+  "name": "react-toggle-file-tree",
+  "version": "1.0.0",
+  "description": "Provides easy file tree implementation with React.",
+  "main": "dist/react-toggle-file-tree.cjs.js",
+  "module": "dist/react-toggle-file-tree.esm.js",
+  "types": "dist/react-toggle-file-tree.cjs.d.ts",
+  "sideEffects": false,
+  "author": "in-ch",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.12.0",
+    "@emotion/cache": "^11.4.0",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1"
+  },
+  "devDependencies": {
+    "@types/jest-in-case": "^1.0.6",
+    "jest-in-case": "^1.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "next",
+    "reactjs",
+    "nextjs",
+    "file",
+    "file-tree",
+    "file tree",
+    "tree",
+    "file-list",
+    "toggle-list",
+    "component"
+  ],
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts"
+    ]
+  },
+  "exports": {
+    ".": {
+      "module": "./dist/react-toggle-file-tree.esm.js",
+      "import": "./dist/react-toggle-file-tree.cjs.mjs",
+      "default": "./dist/react-toggle-file-tree.cjs.js"
+    },
+    "./package.json": "./package.json"
+  }
+}

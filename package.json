@@ -73,7 +73,7 @@
     "test": "yarn test:jest",
     "test:jest": "jest --coverage",
     "e2e": "concurrently --kill-others --success=first --names 'SERVER,E2E' 'yarn start:test' 'yarn test:cypress'",
-    "type-check": "tsc --build packages/react-tui-date-picker/tsconfig.json",
+    "type-check": "tsc --build packages/react-toggle-file-tree/tsconfig.json",
     "precommit": "yarn run type-check",
     "postinstall": "preconstruct dev && manypkg check",
     "version": "changeset && changeset version",
