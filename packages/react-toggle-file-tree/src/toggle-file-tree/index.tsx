@@ -1,3 +1,5 @@
+'use client';
+
 import React, { MouseEventHandler } from 'react';
 import styled from '@emotion/styled';
 import { IMG } from './icons/imgs';
