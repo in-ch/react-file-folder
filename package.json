@@ -1,7 +1,7 @@
 {
   "name": "@react-toggle-file-tree/monorepo",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides easy file tree implementation with React.",
   "author": "in-ch",
   "license": "MIT",
