@@ -10,20 +10,21 @@ describe('createFileTree', () => {
     ];
 
     const expectedFileTree = {
-      files: [{ localPath: 'file1.txt' }],
+      files: [],
+      'file1.txt': { files: [{ localPath: 'file1.txt' }] },
       dir1: {
-        files: [
-          { localPath: 'dir1/file2.txt' },
-          { localPath: 'dir1/file3.txt' },
-        ],
+        files: [],
+        'file2.txt': { files: [{ localPath: 'dir1/file2.txt' }] },
+        'file3.txt': { files: [{ localPath: 'dir1/file3.txt' }] },
       },
       dir2: {
+        files: [],
         subdir1: {
-          files: [{ localPath: 'dir2/subdir1/file4.txt' }],
+          files: [],
+          'file4.txt': { files: [{ localPath: 'dir2/subdir1/file4.txt' }] },
         },
       },
     };
-
     expect(createFileTree(fileList)).toEqual(expectedFileTree);
   });
 });

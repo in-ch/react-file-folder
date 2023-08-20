@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1692531657059" clover="3.2.0">
+  <project timestamp="1692531657060" name="All files">
+    <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3" elements="17" coveredelements="17" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
+    <file name="createFileTree.ts" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/utils/createFileTree.ts">
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="18" count="4" type="stmt"/>
+      <line num="19" count="4" type="stmt"/>
+      <line num="20" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="7" type="stmt"/>
+      <line num="23" count="8" type="stmt"/>
+      <line num="25" count="4" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="46" count="3" type="stmt"/>
+    </file>
+  </project>
+</coverage>
