@@ -1,5 +1,5 @@
 module.exports = {
-  extends: [],
+  extends: ['plugin:storybook/recommended'],
   parser: '@typescript-eslint/parser',
   env: {
     browser: true,
