@@ -9,6 +9,10 @@
   "author": "in-ch",
   "license": "MIT",
   "repository": "https://github.com/in-ch/react-file-folder.git",
+  "dependencies": {
+    "@babel/runtime": "^7.23.9",
+    "@emotion/styled": "^11.11.0"
+  },
   "peerDependencies": {
     "react": "*",
     "react-dom": "*"
