@@ -126,14 +126,152 @@ import { Meta } from '@storybook/addon-docs';
   `}
 </style>
 
-# TEST
+# react-toggle-file-tree
+
+### You can easily build a file tree structure.
 
 ## ✏️ Overview
 
+The `react-toggle-file-tree` is designed to display a file/folder structure based on the provided list of files and their properties.
+This component organizes the files into folders and subfolders based on their localPath. Each folder can contain multiple files with their respective fileName
+
 <div className="tip-wrapper"></div>
-<div className="tip-wrapper"></div>
-<div className="br" />
 
 ## 🎨 Installation
 
+This library use `react-toggle-file-tree`, so you need to install it.
+
+```bash
+npm install --save react-toggle-file-tree
+```
+
+or
+
+```bash
+yarn add react-toggle-file-tree
+```
+
+## How to use
+
+```tsx
+import {
+  createFileTree,
+  Directory,
+  ToggleFileTree,
+} from 'react-toggle-file-tree';
+
+<ToggleFileTree
+  list={createFileTree(list) as Directory}
+  handleFileClick={handleFileClick}
+  handleDirectoryClick={handleDirectoryClick}
+/>;
+```
+
+⚠ The list must contain the localPath and fileName keys.
+
+<details>
+    <summary>list example view</summary>
+
+```ts
+const list = [
+  {
+    localPath: '/',
+    fileName: 'inch.txt',
+    properties: {
+      size: '1 bit',
+      anything: 'possible',
+      a: 'b',
+    },
+  },
+  {
+    localPath: '/fruit',
+    fileName: 'apple.docs',
+    properties: {
+      sizezz: '12mb',
+      azvv: 'asdfasd',
+    },
+  },
+  {
+    localPath: '/fruit',
+    fileName: 'banana.png',
+    properties: {
+      sizezz: '12mb',
+      azvv: 'asdfasd',
+    },
+  },
+  {
+    localPath: '/vehicle/car',
+    fileName: 'truck.pdf',
+    properties: {
+      sizezz: '12mb',
+      azvv: 'asdfasd',
+    },
+  },
+  {
+    localPath: '/vehicle/car',
+    fileName: 'taxi.ppt',
+    properties: {
+      sizezz: '12mb',
+      azvv: 'asdfasd',
+    },
+  },
+  {
+    localPath: '/plant/tree',
+    fileName: 'oak.json',
+    properties: {
+      sizezz: '10mb',
+      azvv: 'asdfasd',
+    },
+  },
+  {
+    localPath: '/plant/tree',
+    fileName: 'maple.zip',
+    properties: {
+      sizezz: '8mb',
+      azvv: 'asdfasd',
+    },
+  },
+  {
+    localPath: '/plant/flower',
+    fileName: 'cherry-blossom.numbers',
+    properties: {
+      sizezz: '5mb',
+      azvv: 'asdfasd',
+    },
+  },
+  {
+    localPath: '/plant/fruit',
+    fileName: 'apple-tree.csv',
+    properties: {
+      sizezz: '15mb',
+      azvv: 'asdfasd',
+    },
+  },
+];
+```
+
+</details>
+
+## Supported file types
+
+The `react-toggle-file-tree` supports the following file formats:
+
+Documents: csv, docs, html, json, manifest, numbers, pdf, ppt, pptx, txt, xlsx
+
+Images: gif, jpg, jpeg, png
+
+Media: mov, mp4
+
+Scripts: js, ts
+
+Compressed: gif, zip
+
 ## 👨‍👩‍👧‍👦 How to Contribution
+
+You can follow below to contribute `react-toggle-file-tree`
+
+Clone the repository.
+
+```bash
+git clone https://github.com/in-ch/react-file-folder.git
+```
