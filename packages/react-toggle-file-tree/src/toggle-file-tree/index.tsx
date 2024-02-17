@@ -78,10 +78,11 @@ function renderFileList(
     if (Array.isArray(value)) {
       const files = value;
       return (
-        <FileContainer key={key}>
+        <FileContainer key={key} role="tree">
           {files.map((file) => {
             return (
               <File
+                role="treeitem"
                 key={`FILE-${file.fileName}-${index}-${Math.random()
                   .toString()
                   .substring(2, 10)}`}
@@ -110,7 +111,11 @@ function renderFileList(
               📁 <span style={{ marginLeft: 4, fontSize: 15 }}>{key}</span>
             </p>
           </CheckboxContainer>
-          <Checkbox id={`CHECKBOX-${index}-${key}`} type="checkbox" />
+          <Checkbox
+            id={`CHECKBOX-${index}-${key}`}
+            type="checkbox"
+            role="checkbox"
+          />
           {renderFileList(
             value as FileList,
             handleFileClick,
