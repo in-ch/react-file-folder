@@ -1,21 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1692531913572" clover="3.2.0">
-  <project timestamp="1692531913572" name="All files">
-    <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3" elements="17" coveredelements="17" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
-    <file name="createFileTree.ts" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/utils/createFileTree.ts">
+<coverage generated="1708235358257" clover="3.2.0">
+  <project timestamp="1708235358258" name="All files">
+    <metrics statements="52" coveredstatements="41" conditionals="8" coveredconditionals="6" methods="28" coveredmethods="17" elements="88" coveredelements="64" complexity="0" loc="52" ncloc="52" packages="5" files="25" classes="25"/>
+    <package name="src">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.__test__.mock">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/__test__/mock/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.toggle-file-tree">
+      <metrics statements="20" coveredstatements="18" conditionals="6" coveredconditionals="4" methods="7" coveredmethods="5"/>
+      <file name="index.css.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/index.css.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/index.tsx">
+        <metrics statements="13" coveredstatements="11" conditionals="6" coveredconditionals="4" methods="7" coveredmethods="5"/>
+        <line num="17" count="18" type="stmt"/>
+        <line num="18" count="18" type="cond" truecount="1" falsecount="1"/>
+        <line num="28" count="16" type="stmt"/>
+        <line num="29" count="30" type="stmt"/>
+        <line num="30" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="16" type="stmt"/>
+        <line num="32" count="16" type="stmt"/>
+        <line num="35" count="18" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="59" count="14" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="93" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.toggle-file-tree.icons">
+      <metrics statements="19" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="9"/>
+      <file name="css.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/css.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="csv.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/csv.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="docs.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/docs.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="gif.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/gif.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="html.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/html.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="img.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/img.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="imgs.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/imgs.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="js.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/js.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="json.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/json.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="manifest.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/manifest.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="numbers.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/numbers.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="pdf.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/pdf.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="ppt.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/ppt.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="ts.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/ts.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="txt.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/txt.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="unknown.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/unknown.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="video.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/video.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="xlsx.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/xlsx.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="zip.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/zip.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
       <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="17" count="4" type="stmt"/>
-      <line num="18" count="4" type="stmt"/>
-      <line num="19" count="4" type="stmt"/>
-      <line num="20" count="8" type="cond" truecount="2" falsecount="0"/>
-      <line num="21" count="7" type="stmt"/>
-      <line num="23" count="8" type="stmt"/>
-      <line num="25" count="4" type="stmt"/>
-      <line num="27" count="1" type="stmt"/>
-      <line num="45" count="1" type="stmt"/>
-      <line num="46" count="3" type="stmt"/>
-    </file>
+      <file name="createFileTree.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/utils/createFileTree.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="22" type="stmt"/>
+        <line num="18" count="22" type="stmt"/>
+        <line num="19" count="22" type="stmt"/>
+        <line num="20" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="21" type="stmt"/>
+        <line num="23" count="36" type="stmt"/>
+        <line num="25" count="22" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
