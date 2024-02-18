@@ -1,6 +1,6 @@
 {
   "name": "react-toggle-file-tree",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Provides easy file tree implementation with React.",
   "main": "dist/react-toggle-file-tree.cjs.js",
   "module": "dist/react-toggle-file-tree.esm.js",
