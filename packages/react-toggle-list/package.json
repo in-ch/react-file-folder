@@ -1,0 +1,50 @@
+{
+  "name": "react-toggle-list",
+  "version": "1.0.3",
+  "description": "Provides easy toggle list with React.",
+  "main": "dist/react-toggle-list.cjs.js",
+  "module": "dist/react-toggle-list.esm.js",
+  "types": "dist/react-toggle-list.cjs.d.ts",
+  "sideEffects": false,
+  "author": "in-ch",
+  "license": "MIT",
+  "repository": "https://github.com/in-ch/react-file-folder.git",
+  "dependencies": {
+    "@babel/runtime": "^7.23.9",
+    "@emotion/styled": "^11.11.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "next",
+    "reactjs",
+    "nextjs",
+    "toggle",
+    "toggle list",
+    "toggle-list",
+    "ui",
+    "component"
+  ],
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts"
+    ]
+  },
+  "exports": {
+    ".": {
+      "module": "./dist/react-toggle-list.esm.js",
+      "import": "./dist/react-toggle-list.cjs.mjs",
+      "default": "./dist/react-toggle-list.cjs.js"
+    },
+    "./package.json": "./package.json"
+  }
+}
