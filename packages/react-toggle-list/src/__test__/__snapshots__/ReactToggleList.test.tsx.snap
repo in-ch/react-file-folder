@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TEST ReactToggleList ReactToggleList Snapshot test 1`] = `
+<div>
+  <div>
+    <div
+      class="flex flex-row items-center cursor-pointer"
+      role="button"
+    >
+      <div
+        class="w-6"
+      >
+        <svg
+          fill="none"
+          height="25"
+          stroke="currentColor"
+          stroke-width="0"
+          style="position: relative; left: -10px;"
+          viewBox="0 0 15 15"
+          width="25"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 11L6 4L10.5 7.5L6 11Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+      <p>
+        toggle
+      </p>
+    </div>
+  </div>
+</div>
+`;
