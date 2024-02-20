@@ -98,3 +98,4 @@ const ToggleFileTree = ({
 };
 
 export default ToggleFileTree;
+ToggleFileTree.displayName = 'ToggleFileTree';
