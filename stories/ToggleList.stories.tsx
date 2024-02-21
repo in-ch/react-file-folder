@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
-import { ReactToggleList } from '../packages/react-toggle-list/dist/react-toggle-list.cjs.js';
+import { ReactToggleList } from '../packages/react-toggle-list/src';
 
 const meta = {
   title: 'Example/ReactToggleList',
@@ -14,7 +14,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 const List = {
-  title: '토글토글',
+  title: 'toggle',
   subItems: [
     <p onClick={() => alert('T')}>T</p>,
     <p onClick={() => alert('E')}>E</p>,
@@ -24,7 +24,7 @@ const List = {
 };
 
 const nestedList = {
-  title: '네스팅 토글토글',
+  title: 'nesting toggle',
   subItems: [
     <p onClick={() => alert('T')}>T</p>,
     <p onClick={() => alert('E')}>E</p>,
@@ -34,7 +34,7 @@ const nestedList = {
   ],
 };
 const nestedNestedList = {
-  title: '네스티드 네스팅 토글토글',
+  title: 'nested nesting toggle',
   subItems: [
     <p onClick={() => alert('T')}>T</p>,
     <p onClick={() => alert('E')}>E</p>,
