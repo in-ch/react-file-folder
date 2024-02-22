@@ -1,6 +1,6 @@
 {
   "name": "react-toggle-list",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Provides easy toggle list with React.",
   "main": "dist/react-toggle-list.cjs.js",
   "module": "dist/react-toggle-list.esm.js",
