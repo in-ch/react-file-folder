@@ -1,7 +1,10 @@
 'use client';
 
 import React, { MouseEventHandler } from 'react';
+
 import { IMG } from './icons/imgs';
+import ArrowRight from './icons/arrow-right';
+import ArrowDown from './icons/arrow-down';
 import { Directory } from '../utils/createFileTree';
 import {
   Container,
@@ -58,16 +61,21 @@ function renderFileList(
     } else {
       return (
         <DepthContainer key={key}>
-          <CheckboxContainer htmlFor={`CHECKBOX-${index}-${key}`}>
-            <p onClick={() => handleDirectoryClick({ key, value } as any)}>
-              📁 <span style={{ marginLeft: 4, fontSize: 15 }}>{key}</span>
-            </p>
-          </CheckboxContainer>
           <Checkbox
             id={`CHECKBOX-${index}-${key}`}
             type="checkbox"
             role="checkbox"
           />
+          <CheckboxContainer
+            htmlFor={`CHECKBOX-${index}-${key}`}
+            className="checkbox-container"
+          >
+            <div onClick={() => handleDirectoryClick({ key, value } as any)}>
+              <ArrowRight />
+              <ArrowDown />
+              📁 <span style={{ marginLeft: 4, fontSize: 15 }}>{key}</span>
+            </div>
+          </CheckboxContainer>
           {renderFileList(
             value as FileList,
             handleFileClick,

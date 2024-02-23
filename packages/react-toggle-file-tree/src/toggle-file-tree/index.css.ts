@@ -7,40 +7,58 @@ const Container = styled.div`
   }
 `;
 const DepthContainer = styled.div`
+  padding: 10px 0px;
   padding-left: 22px;
 `;
 const CheckboxContainer = styled.label`
   display: block;
-  line-height: 15px;
   font-size: 14px;
   & > p {
     cursor: pointer;
   }
+  & > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
 `;
 const Checkbox = styled.input`
-  width: 1px;
-  height: 1px;
+  width: 0px;
+  height: 0px;
   visibility: hidden;
+  position: absolute;
+  left: 0;
   &:checked ~ div {
     display: block;
   }
   & ~ div {
     display: none;
   }
+  & ~ .checkbox-container > div > .right {
+    display: block;
+  }
+  & ~ .checkbox-container > div > .down {
+    display: none;
+  }
+  &:checked ~ .checkbox-container > div > .right {
+    display: none;
+  }
+  &:checked ~ .checkbox-container > div > .down {
+    display: block;
+  }
 `;
 const FileContainer = styled.div`
   padding-left: 22px;
-  padding-bottom: 5px;
   & > p {
     line-height: 24px;
-    padding-bottom: 20px;
   }
 `;
 const File = styled.div`
   display: flex;
   flex-direction: row;
-  padding-bottom: 15px;
   cursor: pointer;
+  padding: 10px 0px;
   p {
     font-size: 15px;
     margin-left: 6px;
