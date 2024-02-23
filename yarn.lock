@@ -15223,6 +15223,7 @@ __metadata:
   dependencies:
     "@babel/runtime": "npm:^7.23.9"
     "@emotion/styled": "npm:^11.11.0"
+    react-icons: "npm:^5.0.1"
   peerDependencies:
     react: "*"
     react-dom: "*"
