@@ -1,135 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1708610139311" clover="3.2.0">
-  <project timestamp="1708610139312" name="All files">
-    <metrics statements="62" coveredstatements="51" conditionals="14" coveredconditionals="12" methods="33" coveredmethods="22" elements="109" coveredelements="85" complexity="0" loc="62" ncloc="62" packages="7" files="29" classes="29"/>
+<coverage generated="1710684651472" clover="3.2.0">
+  <project timestamp="1710684651472" name="All files">
+    <metrics statements="66" coveredstatements="55" conditionals="14" coveredconditionals="12" methods="35" coveredmethods="24" elements="115" coveredelements="91" complexity="0" loc="66" ncloc="66" packages="7" files="31" classes="31"/>
     <package name="react-toggle-file-tree.src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/index.ts">
+      <file name="index.ts" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/index.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="react-toggle-file-tree.src.__test__.mock">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/__test__/mock/index.ts">
+      <file name="index.ts" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/__test__/mock/index.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
       </file>
     </package>
     <package name="react-toggle-file-tree.src.toggle-file-tree">
       <metrics statements="21" coveredstatements="19" conditionals="6" coveredconditionals="4" methods="7" coveredmethods="5"/>
-      <file name="index.css.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/index.css.ts">
+      <file name="index.css.ts" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/index.css.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="3" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="49" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/index.tsx">
+      <file name="index.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/index.tsx">
         <metrics statements="14" coveredstatements="12" conditionals="6" coveredconditionals="4" methods="7" coveredmethods="5"/>
-        <line num="17" count="18" type="stmt"/>
-        <line num="18" count="18" type="cond" truecount="1" falsecount="1"/>
-        <line num="28" count="16" type="stmt"/>
-        <line num="29" count="30" type="stmt"/>
-        <line num="30" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="18" type="stmt"/>
+        <line num="21" count="18" type="cond" truecount="1" falsecount="1"/>
         <line num="31" count="16" type="stmt"/>
-        <line num="32" count="16" type="stmt"/>
-        <line num="35" count="18" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="59" count="14" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="88" count="1" type="stmt"/>
-        <line num="93" count="2" type="stmt"/>
-        <line num="101" count="1" type="stmt"/>
+        <line num="32" count="30" type="stmt"/>
+        <line num="33" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="16" type="stmt"/>
+        <line num="35" count="16" type="stmt"/>
+        <line num="38" count="18" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="62" count="14" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="101" count="2" type="stmt"/>
+        <line num="109" count="1" type="stmt"/>
       </file>
     </package>
     <package name="react-toggle-file-tree.src.toggle-file-tree.icons">
-      <metrics statements="19" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="9"/>
-      <file name="css.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/css.tsx">
+      <metrics statements="23" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="20" coveredmethods="11"/>
+      <file name="arrow-down.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/arrow-down.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="arrow-right.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/arrow-right.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="css.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/css.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
       </file>
-      <file name="csv.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/csv.tsx">
+      <file name="csv.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/csv.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
       </file>
-      <file name="docs.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/docs.tsx">
+      <file name="docs.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/docs.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
       </file>
-      <file name="gif.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/gif.tsx">
+      <file name="gif.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/gif.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
       </file>
-      <file name="html.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/html.tsx">
+      <file name="html.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/html.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
       </file>
-      <file name="img.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/img.tsx">
+      <file name="img.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/img.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
       </file>
-      <file name="imgs.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/imgs.ts">
+      <file name="imgs.ts" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/imgs.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="23" count="1" type="stmt"/>
       </file>
-      <file name="index.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/index.ts">
+      <file name="index.ts" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/index.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="js.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/js.tsx">
+      <file name="js.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/js.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
       </file>
-      <file name="json.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/json.tsx">
+      <file name="json.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/json.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
       </file>
-      <file name="manifest.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/manifest.tsx">
+      <file name="manifest.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/manifest.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
       </file>
-      <file name="numbers.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/numbers.tsx">
+      <file name="numbers.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/numbers.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
       </file>
-      <file name="pdf.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/pdf.tsx">
+      <file name="pdf.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/pdf.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
       </file>
-      <file name="ppt.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/ppt.tsx">
+      <file name="ppt.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/ppt.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
       </file>
-      <file name="ts.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/ts.tsx">
+      <file name="ts.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/ts.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
       </file>
-      <file name="txt.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/txt.tsx">
+      <file name="txt.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/txt.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
       </file>
-      <file name="unknown.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/unknown.tsx">
+      <file name="unknown.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/unknown.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
       </file>
-      <file name="video.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/video.tsx">
+      <file name="video.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/video.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
       </file>
-      <file name="xlsx.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/xlsx.tsx">
+      <file name="xlsx.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/xlsx.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
       </file>
-      <file name="zip.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/toggle-file-tree/icons/zip.tsx">
+      <file name="zip.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/toggle-file-tree/icons/zip.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
       </file>
     </package>
     <package name="react-toggle-file-tree.src.utils">
       <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-      <file name="createFileTree.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-file-tree/src/utils/createFileTree.ts">
+      <file name="createFileTree.ts" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-file-tree/src/utils/createFileTree.ts">
         <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="15" count="3" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
@@ -147,23 +157,23 @@
     </package>
     <package name="react-toggle-list.src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.ts" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-list/src/index.ts">
+      <file name="index.ts" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-list/src/index.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="react-toggle-list.src.react-toggle-list">
       <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
-      <file name="ArrowDown.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-list/src/react-toggle-list/ArrowDown.tsx">
+      <file name="ArrowDown.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-list/src/react-toggle-list/ArrowDown.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="9" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="ArrowRight.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-list/src/react-toggle-list/ArrowRight.tsx">
+      <file name="ArrowRight.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-list/src/react-toggle-list/ArrowRight.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="9" count="5" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/Users/seong-inchi/Desktop/dashboard/react-toggle-file-tree/packages/react-toggle-list/src/react-toggle-list/index.tsx">
+      <file name="index.tsx" path="/Users/seonginch/Desktop/dashboard/react-file-folder/packages/react-toggle-list/src/react-toggle-list/index.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
         <line num="25" count="6" type="stmt"/>
         <line num="26" count="6" type="stmt"/>

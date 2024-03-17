@@ -8,12 +8,10 @@ exports[`TEST ToggleFileTree ToggleFileTree snapshot test 1`] = `
 
 .emotion-1 {
   padding-left: 22px;
-  padding-bottom: 5px;
 }
 
 .emotion-1>p {
   line-height: 24px;
-  padding-bottom: 20px;
 }
 
 .emotion-2 {
@@ -24,8 +22,8 @@ exports[`TEST ToggleFileTree ToggleFileTree snapshot test 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  padding-bottom: 15px;
   cursor: pointer;
+  padding: 10px 0px;
 }
 
 .emotion-2 p {
@@ -34,31 +32,67 @@ exports[`TEST ToggleFileTree ToggleFileTree snapshot test 1`] = `
 }
 
 .emotion-3 {
+  padding: 10px 0px;
   padding-left: 22px;
 }
 
 .emotion-4 {
-  display: block;
-  line-height: 15px;
-  font-size: 14px;
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+  position: absolute;
+  left: 0;
 }
 
-.emotion-4>p {
-  cursor: pointer;
+.emotion-4:checked~div {
+  display: block;
+}
+
+.emotion-4~div {
+  display: none;
+}
+
+.emotion-4~.checkbox-container>div>.right {
+  display: block;
+}
+
+.emotion-4~.checkbox-container>div>.down {
+  display: none;
+}
+
+.emotion-4:checked~.checkbox-container>div>.right {
+  display: none;
+}
+
+.emotion-4:checked~.checkbox-container>div>.down {
+  display: block;
 }
 
 .emotion-5 {
-  width: 1px;
-  height: 1px;
-  visibility: hidden;
-}
-
-.emotion-5:checked~div {
   display: block;
+  font-size: 14px;
 }
 
-.emotion-5~div {
-  display: none;
+.emotion-5>p {
+  cursor: pointer;
+}
+
+.emotion-5>div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div>
@@ -151,25 +185,55 @@ exports[`TEST ToggleFileTree ToggleFileTree snapshot test 1`] = `
     <div
       class="emotion-3"
     >
-      <label
+      <input
         class="emotion-4"
+        id="CHECKBOX-1-fruit"
+        role="checkbox"
+        type="checkbox"
+      />
+      <label
+        class="checkbox-container emotion-5"
         for="CHECKBOX-1-fruit"
       >
-        <p>
+        <div>
+          <svg
+            class="right"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 15 15"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 11L6 4L10.5 7.5L6 11Z"
+              fill="currentColor"
+            />
+          </svg>
+          <svg
+            class="down"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 15 15"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 6H11L7.5 10.5L4 6Z"
+              fill="currentColor"
+            />
+          </svg>
           📁 
           <span
             style="margin-left: 4px; font-size: 15px;"
           >
             fruit
           </span>
-        </p>
+        </div>
       </label>
-      <input
-        class="emotion-5"
-        id="CHECKBOX-1-fruit"
-        role="checkbox"
-        type="checkbox"
-      />
       <div
         class="emotion-1"
         role="tree"
@@ -333,25 +397,55 @@ z"
     <div
       class="emotion-3"
     >
-      <label
+      <input
         class="emotion-4"
+        id="CHECKBOX-2-vehicle"
+        role="checkbox"
+        type="checkbox"
+      />
+      <label
+        class="checkbox-container emotion-5"
         for="CHECKBOX-2-vehicle"
       >
-        <p>
+        <div>
+          <svg
+            class="right"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 15 15"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 11L6 4L10.5 7.5L6 11Z"
+              fill="currentColor"
+            />
+          </svg>
+          <svg
+            class="down"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 15 15"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 6H11L7.5 10.5L4 6Z"
+              fill="currentColor"
+            />
+          </svg>
           📁 
           <span
             style="margin-left: 4px; font-size: 15px;"
           >
             vehicle
           </span>
-        </p>
+        </div>
       </label>
-      <input
-        class="emotion-5"
-        id="CHECKBOX-2-vehicle"
-        role="checkbox"
-        type="checkbox"
-      />
       <div
         class="emotion-1"
         role="tree"
@@ -359,25 +453,55 @@ z"
       <div
         class="emotion-3"
       >
-        <label
+        <input
           class="emotion-4"
+          id="CHECKBOX-1-car"
+          role="checkbox"
+          type="checkbox"
+        />
+        <label
+          class="checkbox-container emotion-5"
           for="CHECKBOX-1-car"
         >
-          <p>
+          <div>
+            <svg
+              class="right"
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 15 15"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 11L6 4L10.5 7.5L6 11Z"
+                fill="currentColor"
+              />
+            </svg>
+            <svg
+              class="down"
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 15 15"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 6H11L7.5 10.5L4 6Z"
+                fill="currentColor"
+              />
+            </svg>
             📁 
             <span
               style="margin-left: 4px; font-size: 15px;"
             >
               car
             </span>
-          </p>
+          </div>
         </label>
-        <input
-          class="emotion-5"
-          id="CHECKBOX-1-car"
-          role="checkbox"
-          type="checkbox"
-        />
         <div
           class="emotion-1"
           role="tree"
@@ -515,25 +639,55 @@ z"
     <div
       class="emotion-3"
     >
-      <label
+      <input
         class="emotion-4"
+        id="CHECKBOX-3-plant"
+        role="checkbox"
+        type="checkbox"
+      />
+      <label
+        class="checkbox-container emotion-5"
         for="CHECKBOX-3-plant"
       >
-        <p>
+        <div>
+          <svg
+            class="right"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 15 15"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 11L6 4L10.5 7.5L6 11Z"
+              fill="currentColor"
+            />
+          </svg>
+          <svg
+            class="down"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 15 15"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 6H11L7.5 10.5L4 6Z"
+              fill="currentColor"
+            />
+          </svg>
           📁 
           <span
             style="margin-left: 4px; font-size: 15px;"
           >
             plant
           </span>
-        </p>
+        </div>
       </label>
-      <input
-        class="emotion-5"
-        id="CHECKBOX-3-plant"
-        role="checkbox"
-        type="checkbox"
-      />
       <div
         class="emotion-1"
         role="tree"
@@ -541,25 +695,55 @@ z"
       <div
         class="emotion-3"
       >
-        <label
+        <input
           class="emotion-4"
+          id="CHECKBOX-1-tree"
+          role="checkbox"
+          type="checkbox"
+        />
+        <label
+          class="checkbox-container emotion-5"
           for="CHECKBOX-1-tree"
         >
-          <p>
+          <div>
+            <svg
+              class="right"
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 15 15"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 11L6 4L10.5 7.5L6 11Z"
+                fill="currentColor"
+              />
+            </svg>
+            <svg
+              class="down"
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 15 15"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 6H11L7.5 10.5L4 6Z"
+                fill="currentColor"
+              />
+            </svg>
             📁 
             <span
               style="margin-left: 4px; font-size: 15px;"
             >
               tree
             </span>
-          </p>
+          </div>
         </label>
-        <input
-          class="emotion-5"
-          id="CHECKBOX-1-tree"
-          role="checkbox"
-          type="checkbox"
-        />
         <div
           class="emotion-1"
           role="tree"
@@ -868,25 +1052,55 @@ z"
       <div
         class="emotion-3"
       >
-        <label
+        <input
           class="emotion-4"
+          id="CHECKBOX-2-flower"
+          role="checkbox"
+          type="checkbox"
+        />
+        <label
+          class="checkbox-container emotion-5"
           for="CHECKBOX-2-flower"
         >
-          <p>
+          <div>
+            <svg
+              class="right"
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 15 15"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 11L6 4L10.5 7.5L6 11Z"
+                fill="currentColor"
+              />
+            </svg>
+            <svg
+              class="down"
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 15 15"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 6H11L7.5 10.5L4 6Z"
+                fill="currentColor"
+              />
+            </svg>
             📁 
             <span
               style="margin-left: 4px; font-size: 15px;"
             >
               flower
             </span>
-          </p>
+          </div>
         </label>
-        <input
-          class="emotion-5"
-          id="CHECKBOX-2-flower"
-          role="checkbox"
-          type="checkbox"
-        />
         <div
           class="emotion-1"
           role="tree"
@@ -950,25 +1164,55 @@ z"
       <div
         class="emotion-3"
       >
-        <label
+        <input
           class="emotion-4"
+          id="CHECKBOX-3-fruit"
+          role="checkbox"
+          type="checkbox"
+        />
+        <label
+          class="checkbox-container emotion-5"
           for="CHECKBOX-3-fruit"
         >
-          <p>
+          <div>
+            <svg
+              class="right"
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 15 15"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 11L6 4L10.5 7.5L6 11Z"
+                fill="currentColor"
+              />
+            </svg>
+            <svg
+              class="down"
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 15 15"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 6H11L7.5 10.5L4 6Z"
+                fill="currentColor"
+              />
+            </svg>
             📁 
             <span
               style="margin-left: 4px; font-size: 15px;"
             >
               fruit
             </span>
-          </p>
+          </div>
         </label>
-        <input
-          class="emotion-5"
-          id="CHECKBOX-3-fruit"
-          role="checkbox"
-          type="checkbox"
-        />
         <div
           class="emotion-1"
           role="tree"

@@ -1,5 +1,11 @@
 # react-toggle-file-tree
 
+## 1.0.4
+
+### Patch Changes
+
+- add arrow icon (#2)
+
 ## 1.0.3
 
 ### Patch Changes
